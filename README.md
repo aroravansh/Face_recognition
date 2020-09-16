@@ -10,4 +10,8 @@ Hi this is a project where we learn how to create a basic face recognition progr
  2. Training the recognizer
  3. Recognizing the face
 
-![](images/
+<fig1>
+<figcaption text-align: "center"> Block Diagram of given phases: </figcaption>
+<img src = "images/FaceRecogBlock.png" alt = "hello" />
+ 
+ </fig1>
