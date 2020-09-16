@@ -1,5 +1,7 @@
 # Face Recognition
 Hi this is a project where we learn how to create a basic face recognition program using Python and OpenCV
+## Objective of The Project
+To recognize the face in the camera and name it. Also, if the face is unknown send a text alert with the image to your mobile
 ## Hardware needed
 * Laptop with inbuilt camera or a webcam
 ## Software Required
