@@ -1,6 +1,12 @@
 # Face Recognition
 Hi this is a project where we learn how to create a basic face recognition program using Python and OpenCV
-## Hardware needed:
+## Hardware needed
 * Laptop with inbuilt camera or a webcam
-## Software Required:
+## Software Required
 * Python with OpenCV, numpy, os and  pillow libraries installed 
+## 3 Phases
+ To create the face recognition program, we need to work on 3 different phases which are:
+ 1. Face detection and gathering data
+ 2. Training the recognizer
+ 3. Recognizing the face
+
