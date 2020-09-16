@@ -10,3 +10,4 @@ Hi this is a project where we learn how to create a basic face recognition progr
  2. Training the recognizer
  3. Recognizing the face
 
+![](images/
