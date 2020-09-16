@@ -14,4 +14,18 @@ Hi this is a project where we learn how to create a basic face recognition progr
 <figcaption text-align: "center"> Block Diagram of given phases: </figcaption>
 <img src = "images/FaceRecogBlock.png" alt = "hello" />
  
- </fig1>
+ </fig1><br>
+ ## Installing Libraries
+ ### Opencv
+ In your command prompt you need to type the following command:
+ ```
+ pip install opencv_python
+ pip install opencv_contrib
+ ```
+ ### Other libraries
+ Other libraries to install are:
+ ```
+ pip install os
+ pip install pillow
+ pip install requests
+ ```
