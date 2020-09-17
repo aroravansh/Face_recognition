@@ -57,4 +57,20 @@ Now lets move on to **Phase-2** ....
 <img src = "images/phase2.png" alt = "missing" />
  </fig3><br>
  
+Running the python script [face_trainer.py](face_trainer.py)
 
+
+Make sure you take the current path of the picture you saved earlier in Data Gathering. 
+At the end you should the number of faces trained equal to the faces you captured in [face_add.py](face_add.py)
+
+As a result, a file named "trainer.yml" will be saved in the path you entered.
+
+Note: Everytime you run [face_add.py](face_add.py), you have to run [face_trainer.py](face_trainer.py) also to implement the changes
+
+Now, Lets move on to the final phase for Face Recognition, **Phase-3**
+
+## Face Recognizer
+<fig4>
+<img src = "images/phase3.png" alt = "missing" />
+ </fig4><br>
+ 
