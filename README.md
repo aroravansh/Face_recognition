@@ -40,9 +40,13 @@ Give this a go!!
  Saying that lets move on to **Phase-1** 
  ## Data Gathering
  <fig2>
-<figcaption text-align: "center"> Phase-1: </figcaption>
 <img src = "images/phase1.png" alt = "missing" />
   </fig2><br>
 
 Lets run the first python file [face_add.py](face_add.py)
- 
+
+
+Running the following program, we will add 25 images of one face to gather enough data to recognize the face.
+Make sure to enter the user input id in integers starting from 1, 2 and so on...
+
+We will get to name them later..! 
