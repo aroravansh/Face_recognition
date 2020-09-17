@@ -23,7 +23,7 @@ def sendmsg():  # Sending message to your mobile numb with image of unknown pers
         # Copy the url of the image you saved in face_recog once without sending message
         media_url='Copied url of the image from cloudinary',
         from_='whatsapp:+14155238886',  # Given in your twilio account
-        to='whatsapp:+919268686388'  # your numb or where you want to send the text
+        to='whatsapp:Your_numb'  # your numb or where you want to send the text
     )
     print(message.sid)  # will print your id to show message sent successfully
 
