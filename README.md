@@ -97,4 +97,4 @@ Vansh
 
 ### Credits
 * Thank You @aroramanish2009 for giving me the project
-* Also thanks to @mjrovai for his blog on [real-time face recognition](ackster.io/mjrobot/real-time-face-recognition-an-end-to-end-project-a10826)
+* Also thanks to @mjrovai for his blog on [real-time face recognition](hackster.io/mjrobot/real-time-face-recognition-an-end-to-end-project-a10826)
