@@ -74,3 +74,17 @@ Now, Lets move on to the final phase for Face Recognition, **Phase-3**
 <img src = "images/phase3.png" alt = "missing" />
  </fig4><br>
  
+Now, we have reached the final phase of our project. Here, we will capture a fresh face on our camera and if this person had his face captured and trained before, our recognizer will make a "prediction" returning its id and an index, shown how confident the recognizer is with this match.
+
+Lets run the final python script [face_recog.py](face_recog.py)...
+
+Here, we created a name list which has names indexed according to the userid you added in [face_add.py](face_add.py)
+
+If the recognizer could predict a face, we put a text over the image with the probable id and how much is the "probability" in % that the match is correct ("probability" = 100 - confidence index).Note that the confidence index will return "zero" if it will be cosidered a perfect match.
+If not, an "unknow" label is put on the face, image is uploaded to your cloudinary account and then sent to your whatsapp number.
+We can't send the image directly from our local machine, that's why we had to upload it on the cloud so that it could have an URL...
+Thats it for this project....
+
+
+Thank You 
+Vansh
