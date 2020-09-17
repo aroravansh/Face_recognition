@@ -41,7 +41,8 @@ Give this a go!!
  ## Data Gathering
  <fig2>
 <figcaption text-align: "center"> Phase-1: </figcaption>
-<img src = "images/FaceRecogBlock.png" alt = "missing" />
+<img src = "images/phase1.png" alt = "missing" />
   </fig2><br>
 
+Lets run the first python file [face_add.py](face_add.py)
  
