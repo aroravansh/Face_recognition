@@ -31,7 +31,8 @@ To recognize the face in the camera and name it. Also, if the face is unknown se
  pip install pillow
  pip install twilio
  pip install cloudinary
- ```
+ pip install numpy
+  ```
  
  You need to create an account on [twilio](https://www.twilio.com/) and on [cloudinary](https://cloudinary.com/)
  
