@@ -14,9 +14,8 @@ To recognize the face in the camera and name it. Also, if the face is unknown se
 
 <fig1>
 <figcaption text-align: "center"> Block Diagram of given phases: </figcaption>
-<img src = "images/FaceRecogBlock.png" alt = "hello" />
- 
- </fig1><br>
+<img src = "images/FaceRecogBlock.png" alt = "missing" />
+  </fig1><br>
  ## Installing Libraries
  ### Opencv
  In your command prompt you need to type the following command:
@@ -32,3 +31,17 @@ To recognize the face in the camera and name it. Also, if the face is unknown se
  pip install twilio
  pip install cloudinary
  ```
+ 
+ You need to create an account on [twilio](https://www.twilio.com/) and on [cloudinary](https://cloudinary.com/)
+ 
+ Now, you can learn about the phases of face recognition on the blog by [Ramiz Raza](https://www.superdatascience.com/blogs/opencv-face-recognition)
+
+Give this a go!!
+ Saying that lets move on to **Phase-1** 
+ ## Data Gathering
+ <fig2>
+<figcaption text-align: "center"> Phase-1: </figcaption>
+<img src = "images/FaceRecogBlock.png" alt = "missing" />
+  </fig2><br>
+
+ 
