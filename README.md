@@ -47,6 +47,14 @@ Lets run the first python file [face_add.py](face_add.py)
 
 
 Running the following program, we will add 25 images of one face to gather enough data to recognize the face.
+Run the script few times, each to capture one single id
 Make sure to enter the user input id in integers starting from 1, 2 and so on...
 
 We will get to name them later..! 
+Now lets move on to **Phase-2** ....
+## Data Trainer
+<fig3>
+<img src = "images/phase2.png" alt = "missing" />
+ </fig3><br>
+ 
+
