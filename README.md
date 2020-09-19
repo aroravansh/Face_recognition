@@ -1,5 +1,5 @@
 # Face Recognition
-Hi this is a project where we learn how to create a basic face recognition program using Python and OpenCV
+This is a project where we learn how to create a basic face recognition program using Python and OpenCV
 ## Objective of The Project
 To recognize the face in the camera and name it. Also, if the face is unknown send a text alert with the image to your mobile via Whatsapp
 ## Credits
@@ -56,8 +56,8 @@ Running the following program, we will add 25 images of one face to gather enoug
 Run the script few times, each to capture one single id
 Make sure to enter the user input id in integers starting from 1, 2 and so on...
 
-We will get to name them later..! 
-Now lets move on to **Phase-2** ....
+We will get to name them later! 
+Now lets move on to **Phase-2** 
 ## Data Trainer
 <fig3>
 <img src = "images/phase2.png" alt = "missing" />
