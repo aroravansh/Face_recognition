@@ -7,7 +7,7 @@ def uploadimg():  # Uploading image of unknown person to cloud
     cloudinary.config(cloud_name='Your_cloud_name',
                       api_key='Your_api_key',
                       api_secret='Your_api_aut_secret_key')
-    cloudinary.uploader.upload('C:\\Users\\Param Arora\\Downloads\\Unknown.1.jpg',  # where you saved the image
+    cloudinary.uploader.upload('path where u just saved the image unkown.1',  # where you saved the image
                                folder='face_recog',  # folder created in cloud
                                use_filename=True,
                                unique_filename=False)
@@ -22,7 +22,7 @@ def sendmsg():  # Sending message to your mobile numb with image of unknown pers
         body='Hi! There is this unknown person at your camera....',
         # Copy the url of the image you saved in face_recog once without sending message
         media_url='Copied url of the image from cloudinary',
-        from_='whatsapp:+14155238886',  # Given in your twilio account
+        from_='whatsapp:Twilio gives the numb',  # Given in your twilio account
         to='whatsapp:Your_numb'  # your numb or where you want to send the text
     )
     print(message.sid)  # will print your id to show message sent successfully
@@ -31,7 +31,7 @@ def sendmsg():  # Sending message to your mobile numb with image of unknown pers
 count = 0
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 recognizer.read('C:\\docx\\trainer\\trainer.yml')   # path of file created in face_trainer.py
-cascadePath = "C:\\Python\\Lib\\site-packages\\cv2\\data\\haarcascade_frontalface_default.xml"
+cascadePath = "C:\\Python\\Lib\\site-packages\\cv2\\data\\haarcascade_frontalface_default.xml"  #Your path may be different
 faceCascade = cv2.CascadeClassifier(cascadePath)
 font = cv2.FONT_HERSHEY_SIMPLEX
 # initiate id counter
@@ -65,7 +65,7 @@ while True:
             id1 = "unknown"
             confidence = "  {0}%".format(round(100 - confidence))
             count += 1    # To break out of loop
-            cv2.imwrite("C:\\Users\\Param Arora\\Downloads\\unknown" + '.' + str(count) + ".jpg",
+            cv2.imwrite("Path\\unknown" + '.' + str(count) + ".jpg",
                         img)  # write the path where u want to save, it should have permissions to write
             print('Image saved')
             print('Wait saving image to cloud....')
