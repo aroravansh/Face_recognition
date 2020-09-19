@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 import os
 # Path for face image database
-path = 'C:\\Users\\Param Arora\\Downloads\\faces'
+path = 'Path to folder where face were saved'
 recognizer = cv2.face.LBPHFaceRecognizer_create()  #LBPH (LOCAL BINARY PATTERNS HISTOGRAMS) Face Recognizer is  included in the OpenCV package.
 detector = cv2.CascadeClassifier("C:\\Python\\Lib\\site-packages\\cv2\\data\\haarcascade_frontalface_default.xml")
 
