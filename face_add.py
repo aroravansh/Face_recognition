@@ -18,12 +18,12 @@ while True:
         # Save the captured image into the faces  folder
 
         cv2.imwrite("C:\\Users\\Param Arora\\Downloads\\faces\\" + str(face_id) + '.' + str(count) + ".jpg",
-                    img[y:y + h, x:x + w])
+                    gray[y:y + h, x:x + w])
 
     k = cv2.waitKey(100) & 0xff      # Press 'ESC' for exiting video
     if k == 27:
         break
-    elif count >= 25:    # Take 25 face sample and stop video
+    elif count >= 35:    # Take 35 face sample and stop video
         break
 # Do a bit of cleanup
 print("\n [INFO] Exiting Program and cleanup stuff")
