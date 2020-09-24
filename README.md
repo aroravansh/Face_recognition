@@ -51,15 +51,15 @@ Give this a go!!
 <img src = "images/phase1.png" alt = "missing" />
   </fig2><br>
 
-Lets run the first python file [face_add.py](face_add.py)
+Run the first python script [face_add.py](face_add.py)
 
 
-Running the following program, we will add 25 images of one face to gather enough data to recognize the face.
+After executing the following program, we will add 50 images of one face to gather enough data to recognize the face.
 Run the script few times, each to capture one single id
 Make sure to enter the user input id in integers starting from 1, 2 and so on...
 
-We will get to name them later! 
-Now lets move on to **Phase-2** 
+We will get to name em later! 
+Moving on to **Phase-2** 
 ## Data Trainer
 <fig3>
 <img src = "images/phase2.png" alt = "missing" />
@@ -75,7 +75,7 @@ As a result, a file named "trainer.yml" will be saved in the path you entered.
 
 Note: Everytime you run [face_add.py](face_add.py), you have to run [face_trainer.py](face_trainer.py) also to implement the changes
 
-Now, Lets move on to the final phase for Face Recognition, **Phase-3**
+Now, Lets move on to the phase for Face Recognition, **Phase-3**
 
 ## Face Recognizer
 <fig4>
