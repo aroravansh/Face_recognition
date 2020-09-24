@@ -11,11 +11,12 @@ In this project, we will create a basic face recognition program using Python an
 * Laptop with inbuilt camera or a webcam
 ## Software Required
 * Python with OpenCV, numpy, os and  pillow libraries installed 
-## 3 Phases
+## 4 Phases
  To create the face recognition program, we need to work on 3 different phases which are:
  1. Face detection and gathering data
  2. Training the recognizer
  3. Recognizing the face
+ 4. If unknown, send a text to your mobile via whatsapp
 
 <fig1>
 <figcaption text-align: "center"> Block Diagram of given phases: </figcaption>
