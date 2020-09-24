@@ -90,8 +90,17 @@ Here, we created a name list which has names indexed according to the userid you
 
 If the recognizer could predict a face, we put a text over the image with the probable id and how much is the "probability" in % that the match is correct ("probability" = 100 - confidence index).Note that the confidence index will return "zero" if it will be cosidered a perfect match.
 
-If not, an "unknow" label is put on the face, image is uploaded to your cloudinary account and then sent to your whatsapp number.
+If the face detetected is not known, move on to **phase-4**
 
+## Unknown Face
+<fig1>
+<figcaption text-align: "center"> Dealing with unknown face  </figcaption>
+<img src = "images/phase4.png" alt = "missing" />
+  </fig1><br>
+THe unknown face has an "unknow" label  above the face and then two steps taken are:
+1. Image saved is passed to func upload_image in [face_recog.py](face_recog.py).
+2. Uploaded image is sent as an MMS using func send_msg in [face_recog.py](face_recog.py).
+ 
 We can't send the image directly from our local machine, that's why we had to upload it on the cloud so that it could have an URL...
 
 Thats it for this project....
