@@ -82,13 +82,14 @@ Now, Lets move on to the phase for Face Recognition, **Phase-3**
 <img src = "images/phase3.png" alt = "missing" />
  </fig4><br>
  
-Now, we have reached the final phase of our project. Here, we will capture a fresh face on our camera and if this person had his face captured and trained before, our recognizer will make a "prediction" returning its id and an index, shown how confident the recognizer is with this match.
+Now, we have reached the final phase of our project. Here, following steps will be executed: 
+1. Capture a fresh face on our camera.  
+2. Face captured and trained before wil be recognized. 
+3. Recognizer() will make a "prediction" returning its id and an index, showing how confident the recognizer is with this match.
+4. Name of the face will be taken from the list **names** which has names indexed according to the userid you added in [face_add.py](face_add.py).
+5. Predicted face has a text over it and "probability" in % showing match is correct ("probability" = 100 - confidence index).
 
-Lets run the final python script [face_recog.py](face_recog.py)...
-
-Here, we created a name list which has names indexed according to the userid you added in [face_add.py](face_add.py)
-
-If the recognizer could predict a face, we put a text over the image with the probable id and how much is the "probability" in % that the match is correct ("probability" = 100 - confidence index).Note that the confidence index will return "zero" if it will be cosidered a perfect match.
+Note that the confidence index will return "zero" if it will be cosidered a perfect match.
 
 If the face detetected is not known, move on to **phase-4**
 
@@ -97,13 +98,20 @@ If the face detetected is not known, move on to **phase-4**
 <figcaption text-align: "center"> Dealing with unknown face  </figcaption>
 <img src = "images/phase4.png" alt = "missing" />
   </fig1><br>
-THe unknown face has an "unknow" label  above the face and then two steps taken are:
-1. Image saved is passed to func upload_image in [face_recog.py](face_recog.py).
-2. Uploaded image is sent as an MMS using func send_msg in [face_recog.py](face_recog.py).
- 
-We can't send the image directly from our local machine, that's why we had to upload it on the cloud so that it could have an URL...
 
-Thats it for this project....
+THe unknown face has an "unknow" label  above the face and then two steps taken are:
+
+1. Image saved is passed to func uploadimg() in [face_recog.py](face_recog.py).
+2. Uploaded image is sent as an MMS using func sendmsg() in [face_recog.py](face_recog.py).
+ 
+Before running the python script, do:
+
+1. Enter your api key, cloud name and api key from the account created in [cloudinary](https://cloudinary.com/) in uploadimg().
+2. Enter your authorization id and authorization key from account in [twilio](https://www.twilio.com/). Also, add whatsapp number in sendmsg().
+
+Finally, run the final python script [face_recog.py](face_recog.py) to get the desired result!
+
+Thats it for this project
 
 
 Thank You 
