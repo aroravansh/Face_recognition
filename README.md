@@ -1,7 +1,8 @@
 # Face Recognition
-This is a project where we learn how to create a basic face recognition program using Python and OpenCV
+In this project, we will create a basic face recognition program using Python and OpenCV
 ## Objective of The Project
-To recognize the face in the camera and name it. Also, if the face is unknown send a text alert with the image to your mobile via Whatsapp
+* To recognize the face in the camera and name it.  
+* If the face is unknown send a text alert with the image to your mobile via Whatsapp.
 ## Credits
 * Thank You @RamizRaza for great explanation of the face recognition
 * Also thanks to @mjrovai for his blog on [real-time face recognition](https://www.hackster.io/mjrobot/real-time-face-recognition-an-end-to-end-project-a10826)
