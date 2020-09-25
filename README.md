@@ -99,7 +99,7 @@ If the face detetected is not known, move on to **phase-4**
 <img src = "images/phase4.png" alt = "missing" />
   </fig1><br>
 
-THe unknown face has an "unknow" label  above the face and then two steps taken are:
+The unknown face has an "unknow" label  above it and then two steps taken are:
 
 1. Image saved is passed to func uploadimg() in [face_recog.py](face_recog.py).
 2. Uploaded image is sent as an MMS using func sendmsg() in [face_recog.py](face_recog.py).
