@@ -10,7 +10,9 @@ def uploadimg():  # Uploading image of unknown person to cloud
     cloudinary.uploader.upload('path where u just saved the image unkown.1',  # where you saved the image
                                folder='face_recog',  # folder created in cloud
                                use_filename=True,
-                               unique_filename=False)
+                               unique_filename=False,
+                               invalidate=True
+                               )
     print('Image successfully uploaded..')
 
 
