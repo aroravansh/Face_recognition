@@ -108,6 +108,9 @@ Before running the python script, do:
 
 1. Enter your api key, cloud name and api key from the account created in [cloudinary](https://cloudinary.com/) in uploadimg().
 2. Enter your authorization id and authorization key from account in [twilio](https://www.twilio.com/). Also, add whatsapp number in sendmsg().
+3. Follow [Whatsapp Twilio](https://www.twilio.com/docs/whatsapp/quickstart/python) and register your mobile on twilio whatsapp.
+4. Send “join <your sandbox keyword>” to your Sandbox number in WhatsApp to join your Sandbox
+5. Make sure to send your keyword everytime you receive an image to avoid getting the next message with the old image from cache memory.
 
 Finally, run the final python script [face_recog.py](face_recog.py) to get the desired result!
 
